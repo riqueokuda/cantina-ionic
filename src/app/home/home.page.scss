@@ -1,3 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+}
+ion-content{
+--background: #F22929;
+
+}
+
+ion-button{
+  --background: #f2da05;
+  font-size: 15px;
+  color: #F24949;
+  font-weight: 1000;
+}
+
+ion-fab-button{
+  --background: transparent;
+  width: 60px;
+  height: 60px;
+
+}
+#cabecario{
+  height: 100;
+  background-color: #F24949;
+  padding: 5px;
+}
+#titulo{
+  background-color: white;
+  color: #F22929;
+  font-family: 'Lilita One', cursive;
+  text-align: center;
+  font-size: 40px;
+  height: 70px;
+  padding: 11px;
+}
+
+.produto{
+  color: #f2da05;
+  font-size: 40px;
+  font-weight: 700;
+  font-family: 'Lilita One', cursive;
+}
+
 .conteudo{
   font-size: 2rem;
   padding: 32px;
@@ -10,9 +55,32 @@
 .mostrador{
   display: flex;
   align-items: center;
+  text-align: center;
   gap: 10px;
+  input{
+width: 65px;
+font-size: 40px;
+
+  }
 }
 .resultado{
-  margin-top: 64px;
+  margin-top: 70%;
   font-weight: 700;
+  color: #fff;
+}
+
+input{
+  border: transparent;
+  background-color: transparent;
+  color: white;
+font-size: 40px;
+font-weight: 700;
+text-align: center;
+}
+
+#rodape{
+  margin-top: 200px;
+  height: 100;
+  background-color: #F24949;
+  padding: 5px;
 }
